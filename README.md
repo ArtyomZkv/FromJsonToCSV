@@ -26,6 +26,6 @@ __Пример использования:__ _*.exe -e UTF8_
 
 * __-q__ - при вводе данного параметра программа ничего не делает и просто завершает свою работу. Значение у этого параметра фиксированное, то есть для выполнения функционала данного параметра должно быть введено следующее значение: __131499a8-998e-477c-bae3-906baddd8dc8__
 __Пример использования__ _*.exe -q 131499a8-998e-477c-bae3-906baddd8dc8_.
-Для упрощения процесса тестирования программы укажу уже готовый вариант строки, которую необходимо ввести в консоль: _\GitFromJsonToCSV\FromJsonToCSV\bin\Release\net5.0\publish\FromJsonToCSV.exe -i C:\Users\zujko\Desktop\Work\TestDirectory\file.json -o C:\Users\zujko\Desktop\Work\TestDirectory\fil2.csv -s ; -e UTF8_
+Для упрощения процесса тестирования программы укажу уже готовый вариант строки, которую необходимо ввести в консоль: _\GitFromJsonToCSV\FromJsonToCSV\bin\Release\net5.0\publish\FromJsonToCSV.exe -i C:\Users\SomeUser\TestDirectory\file.json -o C:\Users\SomeUser\TestDirectory\file.csv -s ; -e UTF8_
 ## P.S.
 Параметры, само собой, можно вводить в любом порядке :)
