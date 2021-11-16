@@ -10,7 +10,7 @@ namespace FromJsonToCSV
     static class DelimitParameter
     {
         static private string _secondCharForDelimeter = "s";
-        static public string SecondCharForDelimeter { get { return secondCharForDelimeter; } }
+        static public string SecondCharForDelimeter { get { return _secondCharForDelimeter; } }
         static public string Delimeter { get; set; }
     }
 }
